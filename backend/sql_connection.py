@@ -8,6 +8,6 @@ def get_sql_connection():
   global __mydb
 
   if __mydb is None:
-    __mydb = mysql.connector.connect(user='root', password='ds20011379', database='grocery_store')
+    __mydb = mysql.connector.connect(user='root', password='########', database='grocery_store')
 
   return __mydb
